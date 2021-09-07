@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: helloworld-service
 spec:
-  containers:
     ports:
     - port: 310001
       targetPort: nodejs-port
