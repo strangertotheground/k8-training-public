@@ -9,7 +9,7 @@ spec:
  selector:
   matchLabels:
     app: helloworld
-  template:
+ template:
     metadata:
       labels:
         app: helloworld
