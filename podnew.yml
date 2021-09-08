@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypythonimage
+  labels:
+    app: mypythonimage
+spec:
+  containers:
+  - name: mypythonimage
+    image: arjunachari12/my-python-image
+   
