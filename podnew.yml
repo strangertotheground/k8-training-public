@@ -8,4 +8,7 @@ spec:
   containers:
   - name: mypythonimage
     image: arjunachari12/my-python-image
+    ports:
+    - name: python-port
+      containerPort: 3000
    
